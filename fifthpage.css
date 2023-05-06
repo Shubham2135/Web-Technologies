@@ -1,0 +1,162 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.fifth-page{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0d3b2f;
+  color: #fff;
+}
+
+.fifth-img{
+    max-height:600px ;
+}
+button {
+    background-color: #ffbb01;
+    color: #333;
+    font-size: 10px;
+    padding: 6px;
+    width: 200px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    font-weight: 900;
+}
+.headlines {
+    margin: 20px;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 40px;
+}
+.para-first {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .first-page {
+      flex-direction: column;
+      height: auto;
+    }
+
+    .first-img {
+      max-height: 300px;
+      max-width: 200px;
+    }
+
+    .headlines {
+      margin: 10px;
+      font-size: 12px;
+    }
+
+    .para-first {
+      margin-top: 10px;
+      font-size: 8px;
+    }
+
+    button {
+      font-size: 10px;
+      padding: 4px;
+      width: 160px;
+      border-radius: 20px;
+      margin-top: 10px;
+    }
+
+    .secound-page {
+        flex-direction: column;
+    }
+    .secound-page img{
+        max-width: 300px;
+
+
+    }
+
+    .main-secound {
+      font-size: 20px;
+      width: 80%;
+    }
+
+    .side-secound {
+      font-size: 8px;
+      width: 80%;
+      line-height: 14px;
+    }
+
+    .speaker-title {
+      font-size: 16px;
+      padding-top: 10px;
+    }
+
+    .speakers {
+      flex-direction: column;
+      height: auto;
+      align-items: center;
+    }
+
+    .speaker1 {
+      margin-bottom: 20px;
+    }
+
+    .name {
+      font-size: 12px;
+    }
+
+    .about {
+      font-size: 8px;
+    }
+
+    .date {
+      font-size: 10px;
+    }
+
+    .speaker-img {
+      max-height: 200px;
+    }
+
+    
+   
+
+    .fifth-page {
+      flex-direction: column;
+      height: auto;
+    }
+
+    .fifth-img {
+      max-height: 300px;
+    }
+
+  }
